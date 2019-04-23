@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <!--Título do site-->
+  <title>Piramovies</title>
+  <!-- CSS Externo Principal -->
+  <link rel="stylesheet" href="css/style.css">
+  <!--------------------------->
+  <!--Biblioteca de ícones font-awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <!------------------------------------->
+  <!--Favicon para a aba do navegador-->
+  <link rel="apple-touch-icon" sizes="57x57" href="imagens/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="imagens/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="imagens/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="imagens/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="imagens/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="imagens/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="imagens/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="imagens/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="imagens/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="imagens/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
+  <link rel="manifest" href="imagens/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="imagens/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!----------------------------------->
+</head>
+
+<body>
+  <!--Topo do site-->
+  <div class="container-fluid">
+    <div class="container">
+      <div id="cabecalho">
+        <!--Logo-->
+        <div id="logo"> <a href="index.html"> <img id="logo-image" src="imagens/logo_piramovies.png"
+              alt="Logo Piramovies"> </a> </div>
+        <!--Fim Logo-->
+        <!--Menu-->
+        <div id="menu">
+          <ul id="menu-lista">
+            <li class="item-menu"><a href="index.html">Home</a> </li>
+            <li class="item-menu"><a href="filmes.html">Filmes</a></li>
+            <li class="item-menu"><a href="series.html">Séries</a></li>
+            <li class="item-menu"><a href="noticias.html">Notícias</a></li>
+          </ul>
+        </div>
+        <!--Fim Menu-->
+        <!--Barra de pesquisa-->
+        <div id="pesquisar">
+          <input id="search" type="text" placeholder="Pesquisar">
+          <a href="">
+            <div id="icone"> <i class="fas fa-search"></i> </div>
+          </a>
+        </div>
+        <!--Fim da Barra de Pesquisa-->
+      </div>
+    </div>
+  </div>
+  <!--Fim do topo do site-->
+
+  <!--Conteúdo da página principal-->
+
+  <!--Filme em destaque-->
+  <div class="container">
+    <h1 class="titulo">DESTAQUE DA SEMANA</h1>
+    <div class="col-6">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/g6ng8iy-l0U" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="col-6">
+      <p id="movie-home">Vingadores: Ultimato</p>
+      <p id="sinopse-home" class="text-white">Após Thanos eliminar metade das criaturas vivas, os Vingadores têm
+        de lidar com a perda de amigos e entes queridos. Com Tony Stark vagando perdido no espaço sem água e
+        comida, Steve Rogers e Natasha Romanov lideram a resistência contra o titã louco.</p>
+      <p id="date-home" class="text-white"><span class="font-weight-bold">Data de lançamento:</span> 25 de abril
+        de 2019 (Brasil)</p>
+      <p id="director-home" class="text-white"><span class="font-weight-bold">Direção:</span> Anthony Russo, Joe
+        Russo</p>
+    </div>
+    <!--Fim do filme em destaque-->
+    <div class="clearfix"></div>
+    <!--Cartazes dos filmes-->
+    <h2 class="titulo">TOP TRAILERS</h2>
+    <div class="row">
+      <!--Início do primeiro cartaz-->
+      <div class="col-3"> <a href="#"><img class="img-cartaz" src="cartaz/shazam.jpg" alt=""></a>
+        <div class="rating"> <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+            class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i>
+        </div>
+        <a href="#" class="decoration-none">
+          <p class="movie-title font-weight-bold">Shazam</p>
+        </a>
+        <p class="movie-year font-weight-bold">Estreia: 04/04/2019</p>
+      </div>
+      <!--Fim do primeiro cartaz-->
+
+      <div class="col-3"> <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/vingadores.jpg"
+            alt=""></a>
+        <div class="rating"> <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+            class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i>
+        </div>
+        <a href="#" class="decoration-none">
+          <p class="movie-title font-weight-bold">Vingadores: Ultimato</p>
+        </a>
+        <p class="movie-year font-weight-bold">Estreia: 25/04/2019</p>
+      </div>
+      <div class="col-3"> <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/joker.jpg" alt=""></a>
+        <div class="rating"> <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+            class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i>
+        </div>
+        <a href="#" class="decoration-none">
+          <p class="movie-title font-weight-bold">Coringa</p>
+        </a>
+        <p class="movie-year font-weight-bold">Estreia: 03/10/2019</p>
+      </div>
+      <div class="col-3"> <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/rei.jpg" alt=""></a>
+        <div class="rating"> <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+            class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i>
+        </div>
+        <a href="#" class="decoration-none">
+          <p class="movie-title font-weight-bold">Game of Thrones:<br> 8ª Temporada</p>
+        </a>
+        <p class="movie-year font-weight-bold">Estreia: 14/04/2019</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3 mt-3"> <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/hobbs_shaw.jpg"
+            alt=""></a>
+        <div class="rating"> <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+            class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </div>
+        <a href="#" class="decoration-none">
+          <p class="movie-title font-weight-bold">Velozes e Furiosos: Hobbs & Shaw</p>
+        </a>
+        <p class="movie-year font-weight-bold">Estreia: 01/08/2019</p>
+      </div>
+      <div class="col-3 mt-3"> <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/dark_phoenix.jpg"
+            alt=""></a>
+        <div class="rating"> <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+            class="fas fa-star checked"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </div>
+        <a href="#" class="decoration-none">
+          <p class="movie-title font-weight-bold">X-Men: Fênix Negra</p>
+        </a>
+        <p class="movie-year font-weight-bold">Estreia: 06/06/2019</p>
+      </div>
+
+      <div class="col-3"> <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/alladin.jpg"
+            alt=""></a>
+        <div class="rating"> <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+            class="fas fa-star checked"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </div>
+        <a href="#" class="decoration-none">
+          <p class="movie-title font-weight-bold">Aladdin</p>
+        </a>
+        <p class="movie-year font-weight-bold">Estreia: 23/05/2019</p>
+      </div>
+
+      <div class="col-3 mt-3"> <a href="#" class="decoration-none"><img class="img-cartaz"
+            src="cartaz/rei_leao.jpg"></a>
+        <div class="rating"> <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+            class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i>
+        </div>
+        <a href="#" class="decoration-none">
+          <p class="movie-title font-weight-bold">O Rei Leão</p>
+        </a>
+        <p class="movie-year font-weight-bold">Estreia: 18/07/2019</p>
+      </div>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+  <!--Início das notícias-->
+  <div class="container-fluid float-left mt-5 pb-5">
+    <div class="container">
+      <h2 class="titulo news">ÚLTIMAS NOTÍCIAS</h2>
+      <!--Início da primeira notícia-->
+      <div class="col-4">
+        <p class="news-category text-white font-weight-bold">Séries</p>
+        <a href="#" class="decoration-none"><img class="news-img" src="noticias/gameofthrones.png"></a>
+        <p class="news-date text-white font-weight-bold">21/04/2019</p>
+        <a href="#" class="decoration-none">
+          <p class="news-title text-white font-weight-bold">Game of Thrones: Quem tem mais direito ao Trono de
+            Ferro?</p>
+        </a>
+      </div>
+      <!--Fim da primeira notícia-->
+      <div class="col-4">
+        <p class="news-category text-white font-weight-bold">Cinema</p>
+        <a href="#" class="decoration-none"><img class="news-img" src="noticias/thanos.png"></a>
+        <p class="news-date text-white font-weight-bold">20/04/2019</p>
+        <a href="#" class="decoration-none">
+          <p class="news-title text-white font-weight-bold">Marvel revela música tema de Vingadores: Ultimato;
+            escute</p>
+        </a>
+      </div>
+      <div class="col-4">
+        <p class="news-category text-white font-weight-bold">Cinema</p>
+        <a href="#" class="decoration-none"><img class="news-img" src="noticias/homem-aranha.png"></a>
+        <p class="news-date text-white font-weight-bold">20/04/2019</p>
+        <a href="#" class="decoration-none">
+          <p class="news-title text-white font-weight-bold">Homem-Aranha: Longe de Casa será o último filme da
+            fase três da Marvel, diz Kevin Feige</p>
+        </a>
+      </div>
+      <div class="col-4">
+        <p class="news-category text-white font-weight-bold">Cinema</p>
+        <a href="#" class="decoration-none"><img class="news-img" src="noticias/rei_leao.png"></a>
+        <p class="news-date text-white font-weight-bold">20/04/2019</p>
+        <a href="#" class="decoration-none">
+          <p class="news-title text-white font-weight-bold">“Apesar de ser animado, deve parecer com
+            live-action”, afirma Jon Favreau sobre Rei Leão</p>
+        </a>
+      </div>
+      <div class="col-4">
+        <p class="news-category text-white font-weight-bold">Geral</p>
+        <a href="#" class="decoration-none"><img class="news-img" src="noticias/streaming.jpg"></a>
+        <p class="news-date text-white font-weight-bold">20/04/2019</p>
+        <a href="#" class="decoration-none">
+          <p class="news-title text-white font-weight-bold">A Guerra do Streaming: O que a concorrência da
+            Apple e da Disney significa para a Netflix (Análise)</p>
+        </a>
+      </div>
+      <div class="col-4">
+        <p class="news-category text-white font-weight-bold">Cinema</p>
+        <a href="#" class="decoration-none"><img class="news-img" src="noticias/noticia_vingadores.png"></a>
+        <p class="news-date text-white font-weight-bold">19/04/2019</p>
+        <a href="#" class="decoration-none">
+          <p class="news-title text-white font-weight-bold">Vingadores: Ultimato | Duração oficial do filme é
+            revelada</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+  <!--Fim das notícias-->
+
+  <!--Fim do conteúdo do site-->
+
+  <!--Início Rodapé-->
+  <footer id="footer" class="container-fluid float-left">
+    <div class="container">
+      <div class="w-100"><a href="index.html"><img id="logo-footer" src="imagens/logo_piramovies.png" alt=""></a> </div>
+      <div id="menu-footer">
+        <ul id="menu-lista-footer">
+          <li class="item-menu-footer"><a href="index.html">Home</a> </li>
+          <li class="item-menu-footer"><a href="filmes.html">Filmes</a></li>
+          <li class="item-menu-footer"><a href="series.html">Séries</a></li>
+          <li class="item-menu-footer"><a href="noticias.html">Notícias</a></li>
+        </ul>
+      </div>
+      <div id="social"><a href="#"><i class="fab fa-instagram text-white media"></i></a><a href="#"><i
+            class="fab fa-facebook-f text-white media"></i></a><a href="#"><i
+            class="fab fa-twitter text-white media"></i></a><a href="#"><i
+            class="fab fa-youtube text-white media"></i></a></div>
+      <div id="copyright"></div>
+    </div>
+  </footer>
+  <!--Final do rodapé-->
+</body>
+
+</html>

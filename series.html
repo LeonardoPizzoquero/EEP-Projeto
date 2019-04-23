@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Piramovies</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="57x57" href="imagens/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="imagens/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="imagens/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="imagens/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="imagens/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="imagens/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="imagens/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="imagens/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="imagens/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="imagens/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
+    <link rel="manifest" href="imagens/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="imagens/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <div id="cabecalho">
+                <div id="logo">
+                    <a href="index.html"> <img id="logo-image" src="imagens/logo_piramovies.png" alt="Logo Piramovies">
+                    </a>
+                </div>
+                <div id="menu">
+                    <ul id="menu-lista">
+                        <li class="item-menu"><a href="index.html">Home</a> </li>
+                        <li class="item-menu"><a href="filmes.html">Filmes</a></li>
+                        <li class="item-menu"><a href="series.html">Séries</a></li>
+                        <li class="item-menu"><a href="noticias.html">Notícias</a></li>
+                    </ul>
+                </div>
+                <div id="pesquisar">
+                    <input id="search" type="text" placeholder="Pesquisar">
+                    <a href="">
+                        <div id="icone">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="titulo">DESTAQUE DA SEMANA</h1>
+        <div class="col-6">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rlR4PJn8b8I" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="col-6">
+            <p id="movie-home">Game of Thrones: 8ª Temporada</p>
+            <p id="sinopse-home" class="text-white">Sucesso entre os livros mais vendidos, a série de obras "A Song of Ice and Fire", de George R.R. Martin, é levada à tela quando HBO decide navegar a fundo pelo gênero e recriar a fantasia medieval épica. Este é o retrato de duas famílias poderosas - reis e rainhas, cavaleiros e renegados, homens honestos e mentirosos - disputando um jogo mortal pelo controle dos Sete Reinos de Westeros para assumir o Trono de Ferro. A série foi filmada em Malta e no norte da Irlanda, tendo participação do escritor dos livros.</p>
+            <p id="date-home" class="text-white"><span class="font-weight-bold">Data de lançamento:</span> 14 de abril
+                de 2019 (Brasil)</p>
+            <p id="director-home" class="text-white"><span class="font-weight-bold">Direção:</span> David Benioff e D. B. Weiss</p>
+        </div>
+        <div class="clearfix"></div>
+        <h2 class="titulo">TOP TRAILERS DE SÉRIES</h2>
+        <div class="row pb-5">
+            <div class="col-3">
+                <a href="#"><img class="img-cartaz" src="cartaz/rei.jpg" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">Game of Thrones: <br> 8ª Temporada</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 14/04/2019</p>
+            </div>
+            <div class="col-3">
+                <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/the_100.png" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">The 100: 6ª Temporada</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 30/04/2019</p>
+            </div>
+            <div class="col-3">
+                <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/good-doctor.jpg" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star"></i> <i class="fas fa-star"></i> <i
+                        class="fas fa-star"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">The Good Doctor: 2ª Temporada</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 04/01/2019</p>
+            </div>
+            <div class="col-3">
+                <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/lacasadepapel.jpg" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">La Casa de Papel: 2ª Temporada</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 19/07/2019</p>
+            </div>
+        </div>
+        <div class="row pb-5">
+            <div class="col-3 mt-3">
+                <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/titans.jpg" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">Titans</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 12/10/2018</p>
+            </div>
+            <div class="col-3 mt-3">
+                <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/residenciahill.jpg" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">A Maldição da Residência Hill</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 12/10/2018</p>
+            </div>
+            <div class="col-3 mt-3">
+                <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/supernatural.jpg" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">Supernatural: 14ª Temporada</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 23/10/2019</p>
+            </div>
+            <div class="col-3 mt-3">
+                <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/strangerthings.jpg"></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">Stranger Things: 3ª Temporada</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 04/07/2019</p>
+            </div>
+        </div>
+        <h2 class="titulo news">SÉRIES DE AÇÃO</h2>
+        <div class="row pb-5">
+            <div class="col-3">
+                <a href="#"><img class="img-cartaz" src="cartaz/shazam.jpg" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">Shazam</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 04/04/2019</p>
+            </div>
+            <div class="col-3">
+                <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/vingadores.jpg" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">Vingadores: Ultimato</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 25/04/2019</p>
+            </div>
+            <div class="col-3">
+                <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/joker.jpg" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">Coringa</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 03/10/2019</p>
+            </div>
+            <div class="col-3">
+                <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/alladin.jpg" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">Aladdin</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 23/05/2019</p>
+            </div>
+        </div>
+        <button class="movie-button">VER MAIS</button>
+
+        <h2 class="titulo news">SÉRIES DE ANIMAÇÃO</h2>
+        <div class="row pb-5">
+            <div class="col-3">
+                <a href="#"><img class="img-cartaz" src="cartaz/shazam.jpg" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">Shazam</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 04/04/2019</p>
+            </div>
+            <div class="col-3">
+                <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/vingadores.jpg" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">Vingadores: Ultimato</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 25/04/2019</p>
+            </div>
+            <div class="col-3">
+                <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/joker.jpg" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">Coringa</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 03/10/2019</p>
+            </div>
+            <div class="col-3">
+                <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/alladin.jpg" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">Aladdin</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 23/05/2019</p>
+            </div>
+        </div>
+        <button class="movie-button">VER MAIS</button>
+        <h2 class="titulo news">SÉRIES DE AVENTURA</h2>
+        <div class="row pb-5">
+            <div class="col-3">
+                <a href="#"><img class="img-cartaz" src="cartaz/shazam.jpg" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">Shazam</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 04/04/2019</p>
+            </div>
+            <div class="col-3">
+                <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/vingadores.jpg" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">Vingadores: Ultimato</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 25/04/2019</p>
+            </div>
+            <div class="col-3">
+                <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/joker.jpg" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">Coringa</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 03/10/2019</p>
+            </div>
+            <div class="col-3">
+                <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/alladin.jpg" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">Aladdin</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 23/05/2019</p>
+            </div>
+        </div>
+        <button class="movie-button">VER MAIS</button>
+        <h2 class="titulo news">SÉRIES CLÁSSICAS</h2>
+        <div class="row pb-5">
+            <div class="col-3">
+                <a href="#"><img class="img-cartaz" src="cartaz/shazam.jpg" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">Shazam</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 04/04/2019</p>
+            </div>
+            <div class="col-3">
+                <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/vingadores.jpg" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">Vingadores: Ultimato</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 25/04/2019</p>
+            </div>
+            <div class="col-3">
+                <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/joker.jpg" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">Coringa</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 03/10/2019</p>
+            </div>
+            <div class="col-3">
+                <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/alladin.jpg" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">Aladdin</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 23/05/2019</p>
+            </div>
+        </div>
+        <button class="movie-button">VER MAIS</button>
+        <h2 class="titulo news">SÉRIES DE COMÉDIA</h2>
+        <div class="row pb-5">
+            <div class="col-3">
+                <a href="#"><img class="img-cartaz" src="cartaz/shazam.jpg" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">Shazam</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 04/04/2019</p>
+            </div>
+            <div class="col-3">
+                <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/vingadores.jpg" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">Vingadores: Ultimato</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 25/04/2019</p>
+            </div>
+            <div class="col-3">
+                <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/joker.jpg" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">Coringa</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 03/10/2019</p>
+            </div>
+            <div class="col-3">
+                <a href="#" class="decoration-none"><img class="img-cartaz" src="cartaz/alladin.jpg" alt=""></a>
+                <div class="rating">
+                    <i class="fas fa-star checked"></i> <i class="fas fa-star checked"></i> <i
+                        class="fas fa-star checked"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="decoration-none">
+                    <p class="movie-title font-weight-bold">Aladdin</p>
+                </a>
+                <p class="movie-year font-weight-bold">Estreia: 23/05/2019</p>
+            </div>
+        </div>
+        <button class="movie-button mb-5">VER MAIS</button>
+    </div>
+    <footer id="footer" class="container-fluid float-left">
+        <div class="container">
+            <div class="w-100"><a href="index.html"><img id="logo-footer" src="imagens/logo_piramovies.png" alt=""></a>
+            </div>
+            <div id="menu-footer">
+                <ul id="menu-lista-footer">
+                    <li class="item-menu-footer"><a href="index.html">Home</a> </li>
+                    <li class="item-menu-footer"><a href="filmes.html">Filmes</a></li>
+                    <li class="item-menu-footer"><a href="series.html">Séries</a></li>
+                    <li class="item-menu-footer"><a href="noticias.html">Notícias</a></li>
+                </ul>
+            </div>
+            <div id="social"><a href="#"><i class="fab fa-instagram text-white media"></i></a><a href="#"><i
+                        class="fab fa-facebook-f text-white media"></i></a><a href="#"><i
+                        class="fab fa-twitter text-white media"></i></a><a href="#"><i
+                        class="fab fa-youtube text-white media"></i></a></div>
+            <div id="copyright"></div>
+        </div>
+    </footer>
+</body>
+
+</html>

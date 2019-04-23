@@ -1,0 +1,448 @@
+/*CSS Padrão para a página toda*/
+body{
+    margin: 0; /*Sem margem na página (Margem externa)*/
+    padding: 0; /*Sem padding na página (Margem interna)*/
+    background-color: #0a0a0a; /*Cor padrão do fundo da página*/
+    font-family: Arial, Helvetica, sans-serif; /*Fonte padrão para os textos*/
+}
+/*******************************/
+
+/*Todas as imagens não passarão do tamanho 100% e a altura irá se adaptar automaticamente*/
+img{
+    max-width: 100%;
+    height: auto;
+}
+/******************************************************************************************/
+
+/*Classe para centralizar as estruturas dos sites*/
+.container{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    clear: both;
+}
+/************************************************/
+
+/*Classe que tem um tamanho de 100% e seu tamanho será automático de acordo com o que tiver dentro dela*/
+.container-fluid{
+    width: 100%;
+    height: auto;
+    background-color: #0f0f0f;
+}
+/********************************************************************************************************/
+
+/*Classe que se comporta como linha, deixando várias divs(caixas) uma do lado da outra*/
+.row{
+    clear: both; /*Não permite div's externas que fiquem ao lado dela*/
+    height: auto; /*Altura automática para o que estiver dentro da linha*/
+    width: 100%; /*Tamanho de 100%*/
+    float: left; /*Flutua a esquerda caso precise*/
+}
+
+/*Classe importante para ajustar tamanhos, nada fica ao seu lado*/
+.clearfix{
+    clear: both;
+}
+/*****************************************************************/
+
+/*Classe para deixar objetos flutuarem um ao lado do outro*/
+.float-left{
+    float: left!important;
+}
+/**********************************************************/
+
+/*Classe para dar uma margem no topo de 50px*/
+.mt-5{
+    margin-top: 50px;
+}
+/*******************************************/
+
+/*Classe para dar uma margem abaixo de 50px*/
+.mb-5{
+    margin-bottom: 50px!important;
+}
+/*******************************************/
+
+/*Classe para dar uma margem no topo de 30px*/
+.mt-3{
+    margin-top: 30px;
+}
+/*******************************************/
+
+/*Classe para dar uma margem interna(padding) embaixo de 30px*/
+.pb-5{
+    padding-bottom: 50px;
+}
+/*******************************************/
+
+/*Classe para zerar margem da tag se tiver*/
+.m-0{
+    margin: 0!important;
+}
+/*******************************************/
+
+/*Classe para remover decoração, por exemplo underline em links*/
+.decoration-none{
+    text-decoration: none;
+}
+/****************************************************************/
+
+/*ID do cabeçalho do site que ficam o menu, logo e barra de pesquisa*/
+#cabecalho{
+    height: 100px; /*Altura de 100px*/
+}
+/******************/
+
+/*ID do Logo do site*/
+#logo{
+    width: 200px; /*Logo possui 200px de comprimento*/
+    height: 100px; /*Logo possui 100px de altura*/
+    float: left; /*Logo flutua ao lado do menu e barra de pesquisa*/
+}
+/********************/
+
+/*ID da imagem do logo*/
+#logo-image{
+    margin-top: 30px; /*A imagem possui uma margem no topo de 30px*/
+}
+/**/
+
+/*ID do menu do site*/
+#menu{
+    width: 700px; /*Menu possui 700px de comprimento*/
+    float: left; /*Menu flutua ao lado do logo e barra de pesquisa*/
+}
+/**/
+
+/*ID para a tag UL do menu*/
+#menu-lista{
+    text-align: left; /*Todos os itens da lista ficam a esquerda*/
+    padding: 25px; /*Tem uma margem interna de 25px*/
+    margin: 16px; /*Tem uma margem externa de 16px*/
+}
+/**/
+
+/*Classe para os itens do menu*/
+.item-menu{
+    display: inline; /*Os itens são mostrados em linha(Menu do site)*/
+    color: #fff;/*Cor dos textos do menu são brancas*/
+    border-right: 1px solid #232121;/*Eles têm uma borda na direita cinza*/
+    padding: 20px; /*Tem uma margem interna de 20px entre eles*/
+    font-size: 14px; /*O tamanho da fonte dos textos são de 14px*/
+    font-weight: bold; /*Deixa os textos em negrito*/
+}
+/**/
+
+
+/*Acha todos os itens do menu que têm uma tag a depois(link) e adiciona cor branca e tira o underline do link*/
+.item-menu > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*Classe que quando passa o mouse em cima do menu deixa o texto vermelho*/
+.item-menu > a:hover{ /*Pega todos os item-menu e encontra todas as tags a com o efeito de passar o mouse(hover)*/
+    color: red; /*Quando passar o mouse nesses itens deixa vermelho*/
+}
+/**/
+
+
+/*ID da div barra de pesquisa*/
+#pesquisar{
+    width: 300px; /*Tamanho de 300px*/
+    float: left; /*Flutua ao lado do menu e logo*/
+}
+/**/
+
+/*ID da tag input de pesquisa*/
+#search{
+    padding: 11px;
+    border: 0;
+    background-color: #4a4a4a;
+    color: #fff;
+    width: 69%;
+    float: left;
+    margin: 34px 0
+}
+/**/
+
+/*Icone da lupa ao na barra de pesquisa*/
+#icone{
+    width: 10%; /*Tamanho de 10%*/ 
+    text-align: center; /*Alinhar a lupa no meio*/
+    padding: 9.5px;
+    background-color: #4a4a4a;
+    color: #fff;
+    float: left;
+    margin: 34px 0;
+}
+/**/
+
+/*Título do filme em destaque na home*/
+#movie-home{
+    color: red; /*Cor vermelha do título*/
+    font-size: 30px; /*Tamanho do título 30px*/
+    font-weight: bold; /*Texto em negrito*/
+    margin: 0; /*Zera a margem do texto*/
+}
+/**/
+
+/*Descrição do filme em destaque*/
+#sinopse-home{
+    text-align: justify; /*Texto bonitinho justificado*/
+    font-size: 20px;  /*Tamanho da fonte 20px*/
+}
+/**/
+
+/*Classe para deixar o texto na cor branca*/
+.text-white{
+    color: #fff;
+}
+/**/
+
+/*Classe para deixar o texto em negrito*/
+.font-weight-bold{
+    font-weight: bold;
+}
+/**/
+
+/*Classe dos títulos como TOP TRAILERS na home*/
+.titulo{
+    color: #fff;
+    border-left: red 2px solid;
+    padding-left: 10px;
+}
+/**/
+
+/*Classe para definir que em 1200px vão caber 4 divs(25% de tamanho cada de 100%)*/
+.col-3{
+    width: 25%; /*Tamanho da div*/
+    float: left; /*Para as 4 flutuarem ao lado da outra*/
+}
+/**/
+
+/*Classe para definir que em 1200px vão caber 2 divs(50% de tamanho cada de 100%)*/
+.col-6{
+    width: 50%;
+    float: left;
+}
+/**/
+
+/*Classe das imagens dos filmes*/
+.img-cartaz{
+    max-width: 100%; /*Tamanho máximo de 100%*/
+    height: 300px; /*Altura de 300px*/
+    margin: 15px auto; /*Margem 15px auto para deixar 15px verticalmente e centralizado horizontalmente*/
+    display: block; /*Deixa ela com aspecto de DIV para centralizar com a margem auto*/
+}
+/**/
+
+/*Classe para colorir a estrela dos filmes*/
+.checked{
+    color: yellow!important;
+}
+/**/
+
+/*Classe do font-awesome(Biblioteca de ícones)*/
+.fa-star{
+    color: #ccc; /*Deixa a estrela branca*/
+}
+/**/
+
+/*Classe do posicionamento das estrelas*/
+.rating{
+    margin-top: 5px;
+    text-align: center; /*Alinha as estrelas no meio*/
+}
+/**/
+
+/*Título do filme*/
+.movie-title{
+    color: red; /*Cor vermelha*/
+    text-align: center; /*Alinha o título no centro*/
+    margin: 5px 0; /*Margem no topo e embaixo de 5px*/
+    font-size: 20px; /*Tamanho do título*/
+}
+/**/
+
+/*Data de estreia do filme*/
+.movie-year{
+    color: #fff; /*Cor branca*/
+    font-size: 15px; /*Tamanho da data*/
+    text-align: center; /*Alinha no meio*/
+    margin: 0; /*Sem margem*/
+}
+/**/
+
+/*Botão Ver Mais da página filmes*/
+.movie-button{
+    background: #dc3545; /*Fundo do botão vermelho*/
+    font-size: 16px; /*Tamanho do texto do botão*/
+    border: 0; /*Sem borda no botão*/
+    border-radius: 5px; /*Deixa o botão com pontas redondas*/
+    padding: 10px; /*Margem dentro do botão de 10px*/
+    color: #fff; /*Cor do texto do botão branca*/
+    font-weight: bold; /*Ver Mais em negrito*/
+    width: 200px; /*Tamanho de 200px*/
+    margin: 0 auto; /*Centraliza o botão*/
+    display: block; /*Permite que o botão fique centralizado*/
+    cursor: pointer; /*Mouse vira mão ao passar em cima do botão*/
+}
+/**/
+
+/* Notícias */
+
+/*Classe do título Últimas notícias*/
+.news{
+    margin-top: 50px;
+    clear: both; /*Não deixa ninguém flutuar ao lado*/
+}
+
+/*Tamanho das notícias(31.333% de 100%) cabem 3 notícias uma ao lado da outra*/
+.col-4{
+    width: 31.3333%;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+}
+/**/
+
+/*Categoria pequena em cima da notícia*/
+.news-category{
+    margin-bottom: 5px;
+    color: red;
+}
+/**/
+
+/*Título da notícia*/
+.news-title{
+    font-size: 20px;
+    margin-top: 0;
+}
+/**/
+
+/*Data da notícia*/
+.news-date{
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: yellow;
+}
+/**/
+
+/*Título da notícia principal na página notícias*/
+.news-title-principal{
+    font-size: 30px;
+    margin-top: 0;
+}
+/**/
+
+/*Data da notícia principal na página notícias*/
+.news-date-principal{
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: yellow;
+}
+/**/
+
+/*Div da notícia em destaque na página notícias*/
+.principal-news{
+    position: relative; /*Posição relativa dessa div*/
+}
+/**/
+
+/*Div que fica o título de data da notícia principal com fundo preto*/
+.title-principal{
+    position: absolute; /*Posição absoluta dentro da div principal-news*/
+    bottom: 0; /*Posicionado embaixo(Bottom)*/
+    margin-bottom: 30px; /*Margem embaixo de 30px*/
+    width: 90%; /*Tamanho de 90%*/
+    padding: 25px; /*Margem interna da caixinha preta*/
+    margin-left: 30px; /*Margem a esquerda da caixinha preta*/
+    background-color: rgba(0, 0, 0, 0.3); /*Cor preta da caixinha, porém com opacidade 0.3*/
+}
+/**/
+
+/* Fim notícias */
+
+/* Rodapé */
+
+/*ID do rodapé*/
+#footer{
+    background-color: #000!important; /*Cor de fundo do rodapé*/
+}
+/**/
+
+/*Logo que fica no rodapé*/
+#logo-footer{
+    margin: 0 auto; /*Centraliza o logo*/
+    max-width: 200px; /*Tem um tamanho máximo de 200px*/
+    height: auto; /*Altura automática para não ficar errado o tamanho*/
+    display: block; /*Permite a centralização da imagem*/
+    padding: 40px 0; /*Margem interna da imagem no topo e embaixo*/
+}
+
+/*Classe para deixar o tamanho da tag com 100%*/
+.w-100{
+    width: 100%;
+}
+/**/
+
+    /* Menu Rodapé */
+
+	/*Tamanho do menu do rodapé*/
+    #menu-footer{
+        width: 100%;
+    }
+
+	/*Estilo da tag UL do menu*/
+    #menu-lista-footer{
+        text-align: center;
+        padding: 5px;
+        margin: 10px 0;
+    }
+
+	/*Estilo dos itens do menu*/
+    .item-menu-footer{
+        display: inline;
+        color: #fff;
+        padding: 20px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+	/*Coloca a cor vermelha nos itens ao passar o mouse*/
+    .item-menu-footer > a:hover{
+        color: red;
+    }
+
+	/*Cor padrão dos itens do menu*/
+    .item-menu-footer > a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    /* Fim menu rodapé */
+
+    /* Redes sociais */
+
+		/*Div das redes sociais com tamanho de 100%*/
+        #social{
+            width: 100%;
+            text-align: center;
+            margin: 40px 0;
+            font-size: 25px;
+        }
+
+		/*Margem interna das redes sociais*/
+        .media{
+            padding: 20px;
+        }
+
+		/*Cor vermelha ao passar o mouse nas redes sociais*/
+        .media:hover{
+            color: red;
+        }
+
+    /* Fim redes sociais */
+
+/* Fim Rodapé */
